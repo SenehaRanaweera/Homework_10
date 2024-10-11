@@ -1,0 +1,58 @@
+{
+   "hconcat": [
+    {
+      "title": "No of Female Customers by Payment Method",
+      "data": {
+        "url": "data/payment method of the customers.csv"
+      },
+      "width": 150,
+      "height":250,
+      "spacing": 5,
+      "mark": {"type": "bar", "tooltip":true},
+      "encoding": {
+        "x": {
+          "field": "Payment Method",
+          "type": "nominal"
+          
+          
+        },
+        "y": {
+          "field": "Female",
+          "type": "quantitative",
+          "title": "No of Female"
+        },
+        "color": {
+          "field": "Payment Method",
+          "type": "nominal",
+          "title": "Payment Method"
+        }
+      }
+    },
+    {
+      "title": "No of Male Customers by Payment Method",
+      "data": {
+        "url": "data/payment method of the customers.csv"
+      },
+      "width": 150,
+      "height":250,
+      "mark":  {"type": "bar", "tooltip":true},
+      "encoding": {
+        "x": {
+          "field": "Payment Method",
+          "type": "nominal"
+          
+        },
+        "y": {
+          "field": "Male",
+          "type": "quantitative",
+          "title": "No of Male"
+        },
+        "color": {
+          "field": "Payment Method",
+          "type": "nominal",
+          "title": "Payment Method"
+        }
+      }
+    }
+  ]
+  }
