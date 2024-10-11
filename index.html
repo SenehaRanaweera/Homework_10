@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    
+    <script src="js/vega_lite_vis.js"></script>
+
+</head>
+<body>
+    <header>
+        <h2>Australia's Telecom Sector</h2>
+      </header>
+
+<section id="gallery-1716">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Building Tomorrow's Connectivity</h2>
+            <!--If you remove the cs-text, the rectangle shape will disappear.  If you need to remove it, transfer the :before and .cs-text:last-of-type styles to the cs-title on mobile and desktop-->
+            <p class="cs-text">
+              Stay informed on how government policies and funding are shaping the future of communications.
+            </p>
+            <a href="" class="cs-button-solid">View All</a>
+        </div>
+        <div class="cs-gallery">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)"
+                        srcset="Images/Image4.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)"
+                        srcset="Images/Image4.webp">
+                <img loading="lazy" decoding="async"
+                        src="Images/Image4.webp" alt="picture"
+                        width="480" height="549">
+            </picture>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)"
+                        srcset="Images/Image3.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)"
+                        srcset="Images/Image3.webp">
+                <img loading="lazy" decoding="async"
+                        src="Images/Image3.webp" alt="picture"
+                        width="480" height="549">
+            </picture>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)"
+                        srcset="Images/Image2.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)"
+                        srcset="Images/Image2.webp">
+                <img loading="lazy" decoding="async"
+                        src="Images/Image2.webp" alt="picture"
+                        width="480" height="549">
+            </picture>
+        </div>
+    </div>
+</section>
+  
+  <section>
+    <div class="mycontainer">
+
+      <div class="piechartcontent">
+        <h2>Payment method of the customers</h2>
+          <div class= "piechart1">
+            <div id="pie_chart"></div>
+            <div class="piechart-description">
+            <p>In the Australian telecommunication industry,several convenient payment methods are commonly used. These include bank transfers, allowing customers to directly transfer funds from their accounts, and credit card payments, which offer flexibility and quick processing. Electronic checks provide a secure, paperless alternative to traditional checks, while medical checks may be used for specific health-related services requiring verification or invoicing through medical entities. These payment options cater to diverse customer preferences, ensuring ease and accessibility.</p>
+          </div>
+          </div>
+        </div>
+      
+        <div class="barchartcontent">
+            <h2>Payment method according to gender</h2>
+            <div class= "barchart1">
+              <div id="simple_bar_chart"></div>
+              <div class="chart-description">
+              <p>When analyzing the bar charts, it is clear that both male and female customers predominantly use electronic checks as their preferred payment method. This indicates a growing trend towards digital, paperless transactions in the telecom industry. In addition to electronic checks, other widely-used electronic payment methods include mobile banking apps, online payment portals, and digital wallets like PayPal. These options provide customers with secure, fast, and convenient ways to manage their telecom payments, highlighting the increasing shift towards electronic solutions in the Australian telecommunications sector.</p> 
+            </div>
+            </div>
+          </div>
+      
+    </div>    
+    </section>
+    <section class="container3">
+      <div class="chart-section3">
+          <div id="stacked_bar_chart">     
+          </div>   
+          <div class="chart-description">          
+          <p>Telecommunication providers often raise complaints to the government when they encounter regulatory, operational, or infrastructure issues that hinder their ability to offer reliable services. These complaints may involve delays in securing permits, barriers to expanding networks, or concerns about regulatory compliance. Providers may also seek government intervention on service disruptions, customer satisfaction issues, or unfair competition practices within the industry.</p>
+          </div>
+      </div>
+
+    
+</body>
+</html>
