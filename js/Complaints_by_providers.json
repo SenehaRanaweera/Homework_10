@@ -3,7 +3,7 @@
   "width": 400,
   "height": 150,
   "data": {
-    "url": "../data/Complaints by providers.csv",  
+    "url": "data/Complaints by providers.csv",  
   "format": {
     "type": "csv"
   }
