@@ -1,6 +1,6 @@
 var vg_1 = "js/payment_methods_by_customers.json";
 var vg_2 = "js/Payment_method_according_to_gender.json";
-var vg_3 = "js/Complaints by providers.json";
+var vg_3 = "js/Complaints_by_providers.json";
 
 //Embed the fouth visualization
 vegaEmbed("#pie_chart", vg_1).then(function(result) {
